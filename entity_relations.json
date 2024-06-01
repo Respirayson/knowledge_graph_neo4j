@@ -1,0 +1,204 @@
+{
+  "data": [
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "dover_migrant_centre_firebombing",
+          "name": "Firebombing of a migrant centre in Dover",
+          "summary": "Andrew Leak, a 66-year-old man from High Wycombe, Buckinghamshire, is believed to have killed himself after throwing two or three incendiary devices at the Western Jet Foil site in Kent last Sunday. The attack is believed to have been motivated by extreme rightwing ideology. Leak's Facebook posts contained anti-Muslim sentiments and he was known to have mental health concerns. Two members of staff at the center were left with minor injuries. 700 people were moved to Manston asylum processing center for safety reasons. An inquest into Leak's death is expected to be opened at Maidstone County Hall on Tuesday."
+        },
+        {
+          "label": "Person",
+          "id": "andrewLeak",
+          "name": "Andrew Leak"
+        },
+        {
+          "label": "Organization",
+          "id": "counterTerrorismPolicingSouthEast",
+          "name": "Counter Terrorism Policing South East"
+        },
+        {
+          "label": "Organization",
+          "id": "facebook",
+          "name": "Facebook"
+        },
+        {
+          "label": "Location",
+          "id": "highWycombe",
+          "name": "High Wycombe"
+        },
+        {
+          "label": "Location",
+          "id": "kent",
+          "name": "Kent"
+        },
+        {
+          "label": "Location",
+          "id": "westernJetFoilSite",
+          "name": "Western Jet Foil site"
+        },
+        {
+          "label": "Location",
+          "id": "manstonAsylumProcessingCentre",
+          "name": "Manston asylum processing center"
+        },
+        {
+          "label": "Location",
+          "id": "maidstoneCountyHall",
+          "name": "Maidstone County Hall"
+        },
+        {
+          "label": "Location",
+          "id": "dover",
+          "name": "Dover"
+        },
+        {
+          "label": "Object",
+          "id": "incendiaryDevices",
+          "name": "incendiary devices"
+        }
+      ],
+      "relationships": [
+        "andrewLeak|PARTICIPATED_IN|dover_migrant_centre_firebombing",
+        "counterTerrorismPolicingSouthEast|WITNESSED|dover_migrant_centre_firebombing",
+        "andrewLeak|AUTHORIZES_ACTION_AGAINST|westernJetFoilSite",
+        "andrewLeak|SPOKESPERSON_FOR|facebook",
+        "highWycombe|WAS_SCENE_OF|dover_migrant_centre_firebombing",
+        "kent|WAS_SCENE_OF|dover_migrant_centre_firebombing",
+        "incendiaryDevices|EVIDENCE_IN|dover_migrant_centre_firebombing",
+        "manstonAsylumProcessingCentre|WAS_SCENE_OF|dover_migrant_centre_firebombing",
+        "dover|WAS_SCENE_OF|dover_migrant_centre_firebombing"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "buffalo_grocery_store_shooting",
+          "name": "Buffalo grocery store shooting",
+          "summary": "Payton Gendron, a 19-year-old White man, pleaded guilty to state charges of domestic terrorism as a hate crime, murder and attempted murder for the shooting at Tops Friendly Markets on May 14, killing 10 people and wounding three.  Gendron admitted to using an illegally modified semiautomatic rifle to target people because they were Black, and chose the store because it was in a predominantly Black neighborhood. He faces multiple federal hate crime charges, which carry the potential for the death penalty, in addition to several firearms charges. The event has led to discussions about gun control and racism in the United States."
+        },
+        {
+          "label": "Person",
+          "id": "paytonGendron",
+          "name": "Payton Gendron"
+        },
+        {
+          "label": "Person",
+          "id": "geraldineTalley",
+          "name": "Geraldine Talley"
+        },
+        {
+          "label": "Person",
+          "id": "markTalley",
+          "name": "Mark Talley"
+        },
+        {
+          "label": "Person",
+          "id": "zaireGoodman",
+          "name": "Zaire Goodman"
+        },
+        {
+          "label": "Person",
+          "id": "zenetaEverhart",
+          "name": "Zeneta Everhart"
+        },
+        {
+          "label": "Person",
+          "id": "paulGendron",
+          "name": "Paul Gendron"
+        },
+        {
+          "label": "Person",
+          "id": "pamelaGendron",
+          "name": "Pamela Gendron"
+        },
+        {
+          "label": "Person",
+          "id": "brianParker",
+          "name": "Brian Parker"
+        },
+        {
+          "label": "Person",
+          "id": "johnFlynn",
+          "name": "John Flynn"
+        },
+        {
+          "label": "Person",
+          "id": "kathyHochul",
+          "name": "Kathy Hochul"
+        },
+        {
+          "label": "Person",
+          "id": "terrenceConnors",
+          "name": "Terrence Connors"
+        },
+        {
+          "label": "Person",
+          "id": "benCrump",
+          "name": "Ben Crump"
+        },
+        {
+          "label": "Organization",
+          "id": "topsFriendlyMarkets",
+          "name": "Tops Friendly Markets"
+        },
+        {
+          "label": "Organization",
+          "id": "erieCountyDistrictAttorney",
+          "name": "Erie County District Attorney"
+        },
+        {
+          "label": "Location",
+          "id": "buffalo",
+          "name": "Buffalo"
+        },
+        {
+          "label": "Location",
+          "id": "newYork",
+          "name": "New York"
+        },
+        {
+          "label": "Location",
+          "id": "conklin",
+          "name": "Conklin"
+        },
+        {
+          "label": "Object",
+          "id": "ar15",
+          "name": "AR-15 style rifle"
+        },
+        {
+          "label": "Object",
+          "id": "highCapacityMagazine",
+          "name": "high-capacity magazine"
+        }
+      ],
+      "relationships": [
+        "paytonGendron|PARTICIPATED_IN|buffalo_grocery_store_shooting",
+        "paytonGendron|AUTHORIZES_ACTION_AGAINST|buffalo",
+        "paytonGendron|WITNESSED|buffalo_grocery_store_shooting",
+        "topsFriendlyMarkets|WAS_SCENE_OF|buffalo_grocery_store_shooting",
+        "erieCountyDistrictAttorney|ACCUSED_OF_TERRORISM_BY|paytonGendron",
+        "buffalo|OPERATES_IN|newYork",
+        "conklin|OPERATES_IN|newYork",
+        "ar15|EVIDENCE_IN|buffalo_grocery_store_shooting",
+        "highCapacityMagazine|EVIDENCE_IN|buffalo_grocery_store_shooting",
+        "paytonGendron|SPOKESPERSON_FOR|topsFriendlyMarkets",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|erieCountyDistrictAttorney",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|kathyHochul",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|benCrump",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|terrenceConnors",
+        "paytonGendron|HAS_MEMBER|paulGendron",
+        "paytonGendron|HAS_MEMBER|pamelaGendron",
+        "paytonGendron|HAS_MEMBER|brianParker",
+        "geraldineTalley|WITNESSED|buffalo_grocery_store_shooting",
+        "markTalley|WITNESSED|buffalo_grocery_store_shooting",
+        "zaireGoodman|WITNESSED|buffalo_grocery_store_shooting",
+        "zenetaEverhart|WITNESSED|buffalo_grocery_store_shooting",
+        "buffalo_grocery_store_shooting|CAUSES_POLICY_SHIFT_IN|erieCountyDistrictAttorney"
+      ]
+    }
+  ]
+}

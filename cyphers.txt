@@ -1,0 +1,62 @@
+MERGE (n:Event {id: "dovermigrantcentrefirebombing"}) ON CREATE SET n.name = "Firebombing of a migrant centre in Dover", n.summary = "Andrew Leak, a 66-year-old man from High Wycombe, Buckinghamshire, is believed to have killed himself after throwing two or three incendiary devices at the Western Jet Foil site in Kent last Sunday. The attack is believed to have been motivated by extreme rightwing ideology. Leak's Facebook posts contained anti-Muslim sentiments and he was known to have mental health concerns. Two members of staff at the center were left with minor injuries. 700 people were moved to Manston asylum processing center for safety reasons. An inquest into Leak's death is expected to be opened at Maidstone County Hall on Tuesday."
+MERGE (n:Person {id: "andrewLeak"}) ON CREATE SET n.name = "Andrew Leak"
+MERGE (n:Organization {id: "counterTerrorismPolicingSouthEast"}) ON CREATE SET n.name = "Counter Terrorism Policing South East"
+MERGE (n:Organization {id: "facebook"}) ON CREATE SET n.name = "Facebook"
+MERGE (n:Location {id: "highWycombe"}) ON CREATE SET n.name = "High Wycombe"
+MERGE (n:Location {id: "kent"}) ON CREATE SET n.name = "Kent"
+MERGE (n:Location {id: "westernJetFoilSite"}) ON CREATE SET n.name = "Western Jet Foil site"
+MERGE (n:Location {id: "manstonAsylumProcessingCentre"}) ON CREATE SET n.name = "Manston asylum processing center"
+MERGE (n:Location {id: "maidstoneCountyHall"}) ON CREATE SET n.name = "Maidstone County Hall"
+MERGE (n:Location {id: "dover"}) ON CREATE SET n.name = "Dover"
+MERGE (n:Object {id: "incendiaryDevices"}) ON CREATE SET n.name = "incendiary devices"
+MERGE (n:Event {id: "buffalogrocerystoreshooting"}) ON CREATE SET n.name = "Buffalo grocery store shooting", n.summary = "Payton Gendron, a 19-year-old White man, pleaded guilty to state charges of domestic terrorism as a hate crime, murder and attempted murder for the shooting at Tops Friendly Markets on May 14, killing 10 people and wounding three.  Gendron admitted to using an illegally modified semiautomatic rifle to target people because they were Black, and chose the store because it was in a predominantly Black neighborhood. He faces multiple federal hate crime charges, which carry the potential for the death penalty, in addition to several firearms charges. The event has led to discussions about gun control and racism in the United States."
+MERGE (n:Person {id: "paytonGendron"}) ON CREATE SET n.name = "Payton Gendron"
+MERGE (n:Person {id: "geraldineTalley"}) ON CREATE SET n.name = "Geraldine Talley"
+MERGE (n:Person {id: "markTalley"}) ON CREATE SET n.name = "Mark Talley"
+MERGE (n:Person {id: "zaireGoodman"}) ON CREATE SET n.name = "Zaire Goodman"
+MERGE (n:Person {id: "zenetaEverhart"}) ON CREATE SET n.name = "Zeneta Everhart"
+MERGE (n:Person {id: "paulGendron"}) ON CREATE SET n.name = "Paul Gendron"
+MERGE (n:Person {id: "pamelaGendron"}) ON CREATE SET n.name = "Pamela Gendron"
+MERGE (n:Person {id: "brianParker"}) ON CREATE SET n.name = "Brian Parker"
+MERGE (n:Person {id: "johnFlynn"}) ON CREATE SET n.name = "John Flynn"
+MERGE (n:Person {id: "kathyHochul"}) ON CREATE SET n.name = "Kathy Hochul"
+MERGE (n:Person {id: "terrenceConnors"}) ON CREATE SET n.name = "Terrence Connors"
+MERGE (n:Person {id: "benCrump"}) ON CREATE SET n.name = "Ben Crump"
+MERGE (n:Organization {id: "topsFriendlyMarkets"}) ON CREATE SET n.name = "Tops Friendly Markets"
+MERGE (n:Organization {id: "erieCountyDistrictAttorney"}) ON CREATE SET n.name = "Erie County District Attorney"
+MERGE (n:Location {id: "buffalo"}) ON CREATE SET n.name = "Buffalo"
+MERGE (n:Location {id: "newYork"}) ON CREATE SET n.name = "New York"
+MERGE (n:Location {id: "conklin"}) ON CREATE SET n.name = "Conklin"
+MERGE (n:Object {id: "ar15"}) ON CREATE SET n.name = "AR-15 style rifle"
+MERGE (n:Object {id: "highCapacityMagazine"}) ON CREATE SET n.name = "high-capacity magazine"
+MERGE (a:Person {id: "andrewLeak"}) MERGE (b:Event {id: "dovermigrantcentrefirebombing"}) MERGE (a)-[:PARTICIPATED_IN]->(b)
+MERGE (a:Organization {id: "counterTerrorismPolicingSouthEast"}) MERGE (b:Event {id: "dovermigrantcentrefirebombing"}) MERGE (a)-[:WITNESSED]->(b)
+MERGE (a:Person {id: "andrewLeak"}) MERGE (b:Location {id: "westernJetFoilSite"}) MERGE (a)-[:AUTHORIZES_ACTION_AGAINST]->(b)
+MERGE (a:Person {id: "andrewLeak"}) MERGE (b:Organization {id: "facebook"}) MERGE (a)-[:SPOKESPERSON_FOR]->(b)
+MERGE (a:Location {id: "highWycombe"}) MERGE (b:Event {id: "dovermigrantcentrefirebombing"}) MERGE (a)-[:WAS_SCENE_OF]->(b)
+MERGE (a:Location {id: "kent"}) MERGE (b:Event {id: "dovermigrantcentrefirebombing"}) MERGE (a)-[:WAS_SCENE_OF]->(b)
+MERGE (a:Object {id: "incendiaryDevices"}) MERGE (b:Event {id: "dovermigrantcentrefirebombing"}) MERGE (a)-[:EVIDENCE_IN]->(b)
+MERGE (a:Location {id: "manstonAsylumProcessingCentre"}) MERGE (b:Event {id: "dovermigrantcentrefirebombing"}) MERGE (a)-[:WAS_SCENE_OF]->(b)
+MERGE (a:Location {id: "dover"}) MERGE (b:Event {id: "dovermigrantcentrefirebombing"}) MERGE (a)-[:WAS_SCENE_OF]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:PARTICIPATED_IN]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Location {id: "buffalo"}) MERGE (a)-[:AUTHORIZES_ACTION_AGAINST]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:WITNESSED]->(b)
+MERGE (a:Organization {id: "topsFriendlyMarkets"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:WAS_SCENE_OF]->(b)
+MERGE (a:Organization {id: "erieCountyDistrictAttorney"}) MERGE (b:Person {id: "paytonGendron"}) MERGE (a)-[:ACCUSED_OF_TERRORISM_BY]->(b)
+MERGE (a:Location {id: "buffalo"}) MERGE (b:Location {id: "newYork"}) MERGE (a)-[:OPERATES_IN]->(b)
+MERGE (a:Location {id: "conklin"}) MERGE (b:Location {id: "newYork"}) MERGE (a)-[:OPERATES_IN]->(b)
+MERGE (a:Object {id: "ar15"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:EVIDENCE_IN]->(b)
+MERGE (a:Object {id: "highCapacityMagazine"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:EVIDENCE_IN]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Organization {id: "topsFriendlyMarkets"}) MERGE (a)-[:SPOKESPERSON_FOR]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Organization {id: "erieCountyDistrictAttorney"}) MERGE (a)-[:DEFENDS_POLICY_AGAINST]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Person {id: "kathyHochul"}) MERGE (a)-[:DEFENDS_POLICY_AGAINST]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Person {id: "benCrump"}) MERGE (a)-[:DEFENDS_POLICY_AGAINST]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Person {id: "terrenceConnors"}) MERGE (a)-[:DEFENDS_POLICY_AGAINST]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Person {id: "paulGendron"}) MERGE (a)-[:HAS_MEMBER]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Person {id: "pamelaGendron"}) MERGE (a)-[:HAS_MEMBER]->(b)
+MERGE (a:Person {id: "paytonGendron"}) MERGE (b:Person {id: "brianParker"}) MERGE (a)-[:HAS_MEMBER]->(b)
+MERGE (a:Person {id: "geraldineTalley"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:WITNESSED]->(b)
+MERGE (a:Person {id: "markTalley"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:WITNESSED]->(b)
+MERGE (a:Person {id: "zaireGoodman"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:WITNESSED]->(b)
+MERGE (a:Person {id: "zenetaEverhart"}) MERGE (b:Event {id: "buffalogrocerystoreshooting"}) MERGE (a)-[:WITNESSED]->(b)
+MERGE (a:Event {id: "buffalogrocerystoreshooting"}) MERGE (b:Organization {id: "erieCountyDistrictAttorney"}) MERGE (a)-[:CAUSES_POLICY_SHIFT_IN]->(b)

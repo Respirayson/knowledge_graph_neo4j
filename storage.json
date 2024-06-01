@@ -1,0 +1,1864 @@
+{
+  "data": [
+    {
+      "entities": [
+        {
+          "label": "Organization",
+          "id": "irgc",
+          "name": "IRGC"
+        },
+        {
+          "label": "Organization",
+          "id": "us",
+          "name": "United States"
+        },
+        {
+          "label": "Organization",
+          "id": "eu",
+          "name": "European Union"
+        },
+        {
+          "label": "Organization",
+          "id": "germany",
+          "name": "Germany"
+        },
+        {
+          "label": "Organization",
+          "id": "trumpadministration",
+          "name": "Trump administration"
+        },
+        {
+          "label": "Organization",
+          "id": "bidenwhitehouse",
+          "name": "Biden White House"
+        },
+        {
+          "label": "Organization",
+          "id": "jcpoa",
+          "name": "JCPOA"
+        },
+        {
+          "label": "Organization",
+          "id": "israel",
+          "name": "Israel"
+        },
+        {
+          "label": "Organization",
+          "id": "iran",
+          "name": "Iran"
+        },
+        {
+          "label": "Organization",
+          "id": "lebanesehezbollah",
+          "name": "Lebanese Hezbollah"
+        },
+        {
+          "label": "Organization",
+          "id": "yemenshouthis",
+          "name": "Yemen's Houthis"
+        },
+        {
+          "label": "Organization",
+          "id": "china",
+          "name": "China"
+        },
+        {
+          "label": "Organization",
+          "id": "iaea",
+          "name": "International Atomic Energy Agency"
+        },
+        {
+          "label": "Organization",
+          "id": "france",
+          "name": "France"
+        },
+        {
+          "label": "Organization",
+          "id": "britain",
+          "name": "Britian"
+        },
+        {
+          "label": "Person",
+          "id": "vedantpatel",
+          "name": "Vedant Patel"
+        },
+        {
+          "label": "Person",
+          "id": "donaldtrump",
+          "name": "Donald Trump"
+        },
+        {
+          "label": "Person",
+          "id": "joebiden",
+          "name": "Joe Biden"
+        },
+        {
+          "label": "Person",
+          "id": "benjaminnetanyahu",
+          "name": "Benjamin Netanyahu"
+        },
+        {
+          "label": "Event",
+          "id": "designationoftheirgcasaterroristorganization",
+          "name": "Designation of the IRGC as a terrorist organization",
+          "summary": "The US State Department spokesperson, Vedant Patel, has stated that the US supports efforts to designate the IRGC as a terrorist organization. The US has already designated the IRGC as a terrorist organization in 2019, but there were reports in 2022 that the Biden White House might lift that designation during negotiations with Iran to revive the 2015 JCPOA nuclear deal. The Biden administration has since imposed sanctions on IRGC-affiliated individuals and entities involved in Tehran’s missile and drone proliferation, as well as money laundering and other activities in support of groups designated as terrorists, such as Lebanese Hezbollah and Yemen's Houthis. Critics argue that the Biden administration has not vigorously enforced oil export sanctions on Iran, allowing the Islamic Republic to earn billions of dollars with shipments to China. Despite the Biden administration's efforts to restore the JCPOA, abandoned by former President Donald Trump, Iran has refused to make a deal and has increased its uranium enrichment, stockpiling enough fissile material for several nuclear bombs. Iranian officials have also threatened to shift their nuclear doctrine, an implicit threat to produce warheads. Reports indicate that France, Germany, and Britian, signatories of the JCPOA, intend to field a censure resolution against Iran at the upcoming IAEA board meeting. Unconfirmed reports suggest that the Biden administration opposes such a censure, as it still holds secret talks with Tehran. The US State Department spokesperson confirmed that the US is actively increasing pressure on Iran through a combination of sanctions, deterrence, and international isolation."
+        }
+      ],
+      "relationships": [
+        "irgc|ENDORSES_TERRORISM|designationoftheirgcasaterroristorganization",
+        "us|SPONSORED|designationoftheirgcasaterroristorganization",
+        "eu|SPONSORED|designationoftheirgcasaterroristorganization",
+        "germany|SPONSORED|designationoftheirgcasaterroristorganization",
+        "trumpadministration|SPONSORED|designationoftheirgcasaterroristorganization",
+        "bidenwhitehouse|SPONSORED|designationoftheirgcasaterroristorganization",
+        "us|HAS_MEMBER|vedantpatel",
+        "trumpadministration|HAS_MEMBER|donaldtrump",
+        "bidenwhitehouse|HAS_MEMBER|joebiden",
+        "israel|HAS_MEMBER|benjaminnetanyahu",
+        "iran|PARTICIPATED_IN|designationoftheirgcasaterroristorganization",
+        "lebanesehezbollah|ENDORSES_TERRORISM|designationoftheirgcasaterroristorganization",
+        "yemenshouthis|ENDORSES_TERRORISM|designationoftheirgcasaterroristorganization",
+        "china|PARTICIPATED_IN|designationoftheirgcasaterroristorganization",
+        "iaea|PARTICIPATED_IN|designationoftheirgcasaterroristorganization",
+        "france|PARTICIPATED_IN|designationoftheirgcasaterroristorganization",
+        "britain|PARTICIPATED_IN|designationoftheirgcasaterroristorganization",
+        "us|IMPOSES_SANCTIONS_ON|iran",
+        "us|IMPOSES_SANCTIONS_ON|irgc",
+        "us|DEFENDS_POLICY_AGAINST|iran",
+        "us|OPERATES_IN|iran",
+        "iran|ACCUSED_OF_TERRORISM_BY|us",
+        "irgc|ACCUSED_OF_TERRORISM_BY|us",
+        "us|ENDORSES_TERRORISM|designationoftheirgcasaterroristorganization",
+        "irgc|ENDORSES_TERRORISM|designationoftheirgcasaterroristorganization"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "ulu_tiram_police_station_attack",
+          "name": "Ulu Tiram Police Station Attack",
+          "summary": "A 21-year-old son of a former JI member entered the Ulu Tiram police station and killed an officer with a parang. He grabbed the victim’s sidearm and opened fire on two other police officers, killing one and injuring the other. The injured officer then shot dead the assailant."
+        },
+        {
+          "label": "Event",
+          "id": "2002_bali_bombings",
+          "name": "2002 Bali Bombings",
+          "summary": "The 2002 Bali bombings killed 202 people and injured 209. The bombings were carried out by the Jemaah Islamiyah (JI) militant group."
+        },
+        {
+          "label": "Event",
+          "id": "2003_jw_marriott_bombing",
+          "name": "2003 JW Marriott Bombing",
+          "summary": "The 2003 JW Marriott bombing was carried out by the Jemaah Islamiyah (JI) militant group."
+        },
+        {
+          "label": "Event",
+          "id": "2004_australian_embassy_bombing",
+          "name": "2004 Australian Embassy Bombing",
+          "summary": "The 2004 Australian Embassy bombing was carried out by the Jemaah Islamiyah (JI) militant group."
+        },
+        {
+          "label": "Event",
+          "id": "2005_bali_bombings",
+          "name": "2005 Bali Bombings",
+          "summary": "The 2005 Bali bombings were carried out by the Jemaah Islamiyah (JI) militant group."
+        },
+        {
+          "label": "Event",
+          "id": "2009_jakarta_bombings",
+          "name": "2009 Jakarta Bombings",
+          "summary": "The 2009 Jakarta bombings were carried out by the Jemaah Islamiyah (JI) militant group."
+        },
+        {
+          "label": "Event",
+          "id": "rizal_park_monument_bombing",
+          "name": "Rizal Park Monument Bombing",
+          "summary": "The Rizal Park Monument bombing killed one person and injured seven others. The bombing was carried out by the Jemaah Islamiyah (JI) militant group."
+        },
+        {
+          "label": "Person",
+          "id": "noordinMohamadTop",
+          "name": "Noordin Mohamad Top"
+        },
+        {
+          "label": "Person",
+          "id": "masSelamatKastari",
+          "name": "Mas Selamat Kastari"
+        },
+        {
+          "label": "Person",
+          "id": "ibrahimMaidin",
+          "name": "Ibrahim Maidin"
+        },
+        {
+          "label": "Person",
+          "id": "ridhuanIsamuddin",
+          "name": "Riduan Isamuddin"
+        },
+        {
+          "label": "Person",
+          "id": "hambali",
+          "name": "Hambali"
+        },
+        {
+          "label": "Person",
+          "id": "noralwizahLeeAbdullah",
+          "name": "Noralwizah Lee Abdullah"
+        },
+        {
+          "label": "Person",
+          "id": "abuBakarBashir",
+          "name": "Abu Bakar Bashir"
+        },
+        {
+          "label": "Person",
+          "id": "abdullahSungkar",
+          "name": "Abdullah Sungkar"
+        },
+        {
+          "label": "Person",
+          "id": "muhamadMohmedSom",
+          "name": "Muhamad Mohmed Som"
+        },
+        {
+          "label": "Person",
+          "id": "saifuddinNasution",
+          "name": "Saifuddin Nasution"
+        },
+        {
+          "label": "Person",
+          "id": "shaharinDakeron",
+          "name": "Shaharin Dakeron"
+        },
+        {
+          "label": "Person",
+          "id": "lawrenceWong",
+          "name": "Lawrence Wong"
+        },
+        {
+          "label": "Person",
+          "id": "andrinRaj",
+          "name": "Andrin Raj"
+        },
+        {
+          "label": "Organization",
+          "id": "jemaahIslamiyah",
+          "name": "Jemaah Islamiyah"
+        },
+        {
+          "label": "Organization",
+          "id": "alQaeda",
+          "name": "Al-Qaeda"
+        },
+        {
+          "label": "Organization",
+          "id": "luqmanulHakim",
+          "name": "Luqmanul Hakim"
+        },
+        {
+          "label": "Organization",
+          "id": "johorIslamicReligiousCouncil",
+          "name": "Johor Islamic Religious Council"
+        },
+        {
+          "label": "Organization",
+          "id": "nordicCounterTerrorismNetwork",
+          "name": "Nordic Counter Terrorism Network"
+        },
+        {
+          "label": "Location",
+          "id": "kampungSungaiTiram",
+          "name": "Kampung Sungai Tiram"
+        },
+        {
+          "label": "Location",
+          "id": "johorBahru",
+          "name": "Johor Bahru"
+        },
+        {
+          "label": "Location",
+          "id": "uluTiram",
+          "name": "Ulu Tiram"
+        },
+        {
+          "label": "Location",
+          "id": "bali",
+          "name": "Bali"
+        },
+        {
+          "label": "Location",
+          "id": "jakarta",
+          "name": "Jakarta"
+        },
+        {
+          "label": "Location",
+          "id": "philippines",
+          "name": "Philippines"
+        },
+        {
+          "label": "Location",
+          "id": "rizalPark",
+          "name": "Rizal Park"
+        },
+        {
+          "label": "Location",
+          "id": "guantanamoBay",
+          "name": "Guantanamo Bay"
+        },
+        {
+          "label": "Location",
+          "id": "cuba",
+          "name": "Cuba"
+        },
+        {
+          "label": "Object",
+          "id": "parang",
+          "name": "Parang"
+        },
+        {
+          "label": "Object",
+          "id": "sidearm",
+          "name": "Sidearm"
+        }
+      ],
+      "relationships": [
+        "noordinMohamadTop|PARTICIPATED_IN|2002_bali_bombings",
+        "noordinMohamadTop|PARTICIPATED_IN|2003_jw_marriott_bombing",
+        "noordinMohamadTop|PARTICIPATED_IN|2004_australian_embassy_bombing",
+        "noordinMohamadTop|PARTICIPATED_IN|2005_bali_bombings",
+        "noordinMohamadTop|PARTICIPATED_IN|2009_jakarta_bombings",
+        "noordinMohamadTop|PARTICIPATED_IN|rizal_park_monument_bombing",
+        "masSelamatKastari|PARTICIPATED_IN|2002_bali_bombings",
+        "masSelamatKastari|PARTICIPATED_IN|2003_jw_marriott_bombing",
+        "masSelamatKastari|PARTICIPATED_IN|2004_australian_embassy_bombing",
+        "masSelamatKastari|PARTICIPATED_IN|2005_bali_bombings",
+        "masSelamatKastari|PARTICIPATED_IN|2009_jakarta_bombings",
+        "masSelamatKastari|PARTICIPATED_IN|rizal_park_monument_bombing",
+        "ibrahimMaidin|PARTICIPATED_IN|2002_bali_bombings",
+        "ibrahimMaidin|PARTICIPATED_IN|2003_jw_marriott_bombing",
+        "ibrahimMaidin|PARTICIPATED_IN|2004_australian_embassy_bombing",
+        "ibrahimMaidin|PARTICIPATED_IN|2005_bali_bombings",
+        "ibrahimMaidin|PARTICIPATED_IN|2009_jakarta_bombings",
+        "ibrahimMaidin|PARTICIPATED_IN|rizal_park_monument_bombing",
+        "ridhuanIsamuddin|PARTICIPATED_IN|2002_bali_bombings",
+        "hambali|PARTICIPATED_IN|2002_bali_bombings",
+        "abuBakarBashir|HAS_MEMBER|jemaahIslamiyah",
+        "abdullahSungkar|HAS_MEMBER|jemaahIslamiyah",
+        "jemaahIslamiyah|SPONSORED|2002_bali_bombings",
+        "jemaahIslamiyah|SPONSORED|2003_jw_marriott_bombing",
+        "jemaahIslamiyah|SPONSORED|2004_australian_embassy_bombing",
+        "jemaahIslamiyah|SPONSORED|2005_bali_bombings",
+        "jemaahIslamiyah|SPONSORED|2009_jakarta_bombings",
+        "jemaahIslamiyah|SPONSORED|rizal_park_monument_bombing",
+        "luqmanulHakim|WAS_SCENE_OF|2002_bali_bombings",
+        "luqmanulHakim|WAS_SCENE_OF|2003_jw_marriott_bombing",
+        "luqmanulHakim|WAS_SCENE_OF|2004_australian_embassy_bombing",
+        "luqmanulHakim|WAS_SCENE_OF|2005_bali_bombings",
+        "luqmanulHakim|WAS_SCENE_OF|2009_jakarta_bombings",
+        "luqmanulHakim|WAS_SCENE_OF|rizal_park_monument_bombing",
+        "kampungSungaiTiram|WAS_SCENE_OF|ulu_tiram_police_station_attack",
+        "kampungSungaiTiram|WAS_SCENE_OF|2002_bali_bombings",
+        "kampungSungaiTiram|WAS_SCENE_OF|2003_jw_marriott_bombing",
+        "kampungSungaiTiram|WAS_SCENE_OF|2004_australian_embassy_bombing",
+        "kampungSungaiTiram|WAS_SCENE_OF|2005_bali_bombings",
+        "kampungSungaiTiram|WAS_SCENE_OF|2009_jakarta_bombings",
+        "kampungSungaiTiram|WAS_SCENE_OF|rizal_park_monument_bombing",
+        "uluTiram|WAS_SCENE_OF|ulu_tiram_police_station_attack",
+        "bali|WAS_SCENE_OF|2002_bali_bombings",
+        "bali|WAS_SCENE_OF|2005_bali_bombings",
+        "jakarta|WAS_SCENE_OF|2003_jw_marriott_bombing",
+        "jakarta|WAS_SCENE_OF|2004_australian_embassy_bombing",
+        "jakarta|WAS_SCENE_OF|2009_jakarta_bombings",
+        "philippines|WAS_SCENE_OF|rizal_park_monument_bombing",
+        "rizalPark|WAS_SCENE_OF|rizal_park_monument_bombing",
+        "guantanamoBay|WAS_SCENE_OF|2002_bali_bombings",
+        "guantanamoBay|WAS_SCENE_OF|2003_jw_marriott_bombing",
+        "guantanamoBay|WAS_SCENE_OF|2004_australian_embassy_bombing",
+        "guantanamoBay|WAS_SCENE_OF|2005_bali_bombings",
+        "guantanamoBay|WAS_SCENE_OF|2009_jakarta_bombings",
+        "guantanamoBay|WAS_SCENE_OF|rizal_park_monument_bombing",
+        "parang|EVIDENCE_IN|ulu_tiram_police_station_attack",
+        "sidearm|EVIDENCE_IN|ulu_tiram_police_station_attack",
+        "alQaeda|ENDORSES_TERRORISM|2002_bali_bombings",
+        "alQaeda|ENDORSES_TERRORISM|2003_jw_marriott_bombing",
+        "alQaeda|ENDORSES_TERRORISM|2004_australian_embassy_bombing",
+        "alQaeda|ENDORSES_TERRORISM|2005_bali_bombings",
+        "alQaeda|ENDORSES_TERRORISM|2009_jakarta_bombings",
+        "alQaeda|ENDORSES_TERRORISM|rizal_park_monument_bombing",
+        "alQaeda|ENDORSES_TERRORISM|ulu_tiram_police_station_attack",
+        "jemaahIslamiyah|ENDORSES_TERRORISM|2002_bali_bombings",
+        "jemaahIslamiyah|ENDORSES_TERRORISM|2003_jw_marriott_bombing",
+        "jemaahIslamiyah|ENDORSES_TERRORISM|2004_australian_embassy_bombing",
+        "jemaahIslamiyah|ENDORSES_TERRORISM|2005_bali_bombings",
+        "jemaahIslamiyah|ENDORSES_TERRORISM|2009_jakarta_bombings",
+        "jemaahIslamiyah|ENDORSES_TERRORISM|rizal_park_monument_bombing",
+        "jemaahIslamiyah|ENDORSES_TERRORISM|ulu_tiram_police_station_attack",
+        "noralwizahLeeAbdullah|PARTICIPATED_IN|2002_bali_bombings",
+        "noralwizahLeeAbdullah|PARTICIPATED_IN|2003_jw_marriott_bombing",
+        "noralwizahLeeAbdullah|PARTICIPATED_IN|2004_australian_embassy_bombing",
+        "noralwizahLeeAbdullah|PARTICIPATED_IN|2005_bali_bombings",
+        "noralwizahLeeAbdullah|PARTICIPATED_IN|2009_jakarta_bombings",
+        "noralwizahLeeAbdullah|PARTICIPATED_IN|rizal_park_monument_bombing",
+        "noralwizahLeeAbdullah|PARTICIPATED_IN|ulu_tiram_police_station_attack",
+        "muhamadMohmedSom|WITNESSED|ulu_tiram_police_station_attack",
+        "muhamadMohmedSom|WITNESSED|2002_bali_bombings",
+        "muhamadMohmedSom|WITNESSED|2003_jw_marriott_bombing",
+        "muhamadMohmedSom|WITNESSED|2004_australian_embassy_bombing",
+        "muhamadMohmedSom|WITNESSED|2005_bali_bombings",
+        "muhamadMohmedSom|WITNESSED|2009_jakarta_bombings",
+        "muhamadMohmedSom|WITNESSED|rizal_park_monument_bombing",
+        "saifuddinNasution|WITNESSED|ulu_tiram_police_station_attack",
+        "shaharinDakeron|WITNESSED|ulu_tiram_police_station_attack",
+        "shaharinDakeron|WITNESSED|2002_bali_bombings",
+        "shaharinDakeron|WITNESSED|2003_jw_marriott_bombing",
+        "shaharinDakeron|WITNESSED|2004_australian_embassy_bombing",
+        "shaharinDakeron|WITNESSED|2005_bali_bombings",
+        "shaharinDakeron|WITNESSED|2009_jakarta_bombings",
+        "shaharinDakeron|WITNESSED|rizal_park_monument_bombing",
+        "lawrenceWong|WITNESSED|ulu_tiram_police_station_attack",
+        "andrinRaj|WITNESSED|ulu_tiram_police_station_attack",
+        "andrinRaj|WITNESSED|2002_bali_bombings",
+        "andrinRaj|WITNESSED|2003_jw_marriott_bombing",
+        "andrinRaj|WITNESSED|2004_australian_embassy_bombing",
+        "andrinRaj|WITNESSED|2005_bali_bombings",
+        "andrinRaj|WITNESSED|2009_jakarta_bombings",
+        "andrinRaj|WITNESSED|rizal_park_monument_bombing",
+        "luqmanulHakim|HOSTS_NEGOTIATIONS_BETWEEN|jemaahIslamiyah_and_alQaeda",
+        "ulu_tiram_police_station_attack|LED_TO|2002_bali_bombings",
+        "ulu_tiram_police_station_attack|LED_TO|2003_jw_marriott_bombing",
+        "ulu_tiram_police_station_attack|LED_TO|2004_australian_embassy_bombing",
+        "ulu_tiram_police_station_attack|LED_TO|2005_bali_bombings",
+        "ulu_tiram_police_station_attack|LED_TO|2009_jakarta_bombings",
+        "ulu_tiram_police_station_attack|LED_TO|rizal_park_monument_bombing",
+        "2002_bali_bombings|LED_TO|2003_jw_marriott_bombing",
+        "2003_jw_marriott_bombing|LED_TO|2004_australian_embassy_bombing",
+        "2004_australian_embassy_bombing|LED_TO|2005_bali_bombings",
+        "2005_bali_bombings|LED_TO|2009_jakarta_bombings",
+        "2009_jakarta_bombings|LED_TO|rizal_park_monument_bombing",
+        "rizal_park_monument_bombing|LED_TO|ulu_tiram_police_station_attack",
+        "ulu_tiram_police_station_attack|CAUSES_POLICY_SHIFT_IN|jemaahIslamiyah",
+        "ulu_tiram_police_station_attack|CAUSES_POLICY_SHIFT_IN|alQaeda",
+        "2002_bali_bombings|CAUSES_POLICY_SHIFT_IN|jemaahIslamiyah",
+        "2002_bali_bombings|CAUSES_POLICY_SHIFT_IN|alQaeda",
+        "2003_jw_marriott_bombing|CAUSES_POLICY_SHIFT_IN|jemaahIslamiyah",
+        "2003_jw_marriott_bombing|CAUSES_POLICY_SHIFT_IN|alQaeda",
+        "2004_australian_embassy_bombing|CAUSES_POLICY_SHIFT_IN|jemaahIslamiyah",
+        "2004_australian_embassy_bombing|CAUSES_POLICY_SHIFT_IN|alQaeda",
+        "2005_bali_bombings|CAUSES_POLICY_SHIFT_IN|jemaahIslamiyah",
+        "2005_bali_bombings|CAUSES_POLICY_SHIFT_IN|alQaeda",
+        "2009_jakarta_bombings|CAUSES_POLICY_SHIFT_IN|jemaahIslamiyah",
+        "2009_jakarta_bombings|CAUSES_POLICY_SHIFT_IN|alQaeda",
+        "rizal_park_monument_bombing|CAUSES_POLICY_SHIFT_IN|jemaahIslamiyah",
+        "rizal_park_monument_bombing|CAUSES_POLICY_SHIFT_IN|alQaeda",
+        "johorIslamicReligiousCouncil|ENDORSES_TERRORISM|ulu_tiram_police_station_attack",
+        "nordicCounterTerrorismNetwork|ENDORSES_TERRORISM|ulu_tiram_police_station_attack",
+        "jemaahIslamiyah|OPERATES_IN|kampungSungaiTiram",
+        "jemaahIslamiyah|OPERATES_IN|uluTiram",
+        "jemaahIslamiyah|OPERATES_IN|bali",
+        "jemaahIslamiyah|OPERATES_IN|jakarta",
+        "jemaahIslamiyah|OPERATES_IN|philippines",
+        "jemaahIslamiyah|OPERATES_IN|rizalPark",
+        "jemaahIslamiyah|OPERATES_IN|guantanamoBay",
+        "hambali|TRANSPORTED_TO|guantanamoBay",
+        "ridhuanIsamuddin|TRANSPORTED_TO|guantanamoBay"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "moscow_concert_hall_attack",
+          "name": "Moscow Concert Hall Attack",
+          "summary": "A terrorist attack occurred at a popular concert hall complex near Moscow, resulting in at least 60 deaths and 145 injuries. Assailants stormed the venue with guns and incendiary devices, setting the complex ablaze. The attack happened before a concert by the band Picnic, causing panic among attendees. A SWAT team was deployed, and medical personnel assisted victims. The attack drew condemnation from Moscow Mayor Sergei Sobyanin, who canceled public events in the city. Russian singer Shaman offered to pay for funeral expenses and medical treatment for those affected."
+        },
+        {
+          "label": "Person",
+          "id": "vladimirPutin",
+          "name": "Vladimir Putin"
+        },
+        {
+          "label": "Person",
+          "id": "andreyVorobyov",
+          "name": "Andrey Vorobyov"
+        },
+        {
+          "label": "Person",
+          "id": "sergeiSobyanin",
+          "name": "Sergei Sobyanin"
+        },
+        {
+          "label": "Person",
+          "id": "shaman",
+          "name": "Shaman"
+        },
+        {
+          "label": "Organization",
+          "id": "isis",
+          "name": "ISIS"
+        },
+        {
+          "label": "Organization",
+          "id": "amaq",
+          "name": "Amaq"
+        },
+        {
+          "label": "Organization",
+          "id": "riaNovosti",
+          "name": "RIA Novosti"
+        },
+        {
+          "label": "Organization",
+          "id": "russia24",
+          "name": "Russia 24"
+        },
+        {
+          "label": "Organization",
+          "id": "picnic",
+          "name": "Picnic"
+        },
+        {
+          "label": "Organization",
+          "id": "tass",
+          "name": "TASS"
+        },
+        {
+          "label": "Organization",
+          "id": "cnn",
+          "name": "CNN"
+        },
+        {
+          "label": "Organization",
+          "id": "kremlin",
+          "name": "Kremlin"
+        },
+        {
+          "label": "Organization",
+          "id": "prosecutorGeneralsOffice",
+          "name": "Prosecutor General’s Office"
+        },
+        {
+          "label": "Location",
+          "id": "crocusCityHall",
+          "name": "Crocus City Hall"
+        },
+        {
+          "label": "Location",
+          "id": "moscow",
+          "name": "Moscow"
+        },
+        {
+          "label": "Location",
+          "id": "ukraine",
+          "name": "Ukraine"
+        },
+        {
+          "label": "Object",
+          "id": "renaultCar",
+          "name": "Renault car"
+        },
+        {
+          "label": "Object",
+          "id": "incendiaryDevice",
+          "name": "Incendiary device"
+        },
+        {
+          "label": "Object",
+          "id": "grenade",
+          "name": "Grenade"
+        },
+        {
+          "label": "Object",
+          "id": "automaticWeapon",
+          "name": "Automatic weapon"
+        }
+      ],
+      "relationships": [
+        "isis|ENDORSES_TERRORISM|moscow_concert_hall_attack",
+        "amaq|SPOKESPERSON_FOR|isis",
+        "crocusCityHall|WAS_SCENE_OF|moscow_concert_hall_attack",
+        "moscow|WAS_SCENE_OF|moscow_concert_hall_attack",
+        "renaultCar|EVIDENCE_IN|moscow_concert_hall_attack",
+        "incendiaryDevice|EVIDENCE_IN|moscow_concert_hall_attack",
+        "grenade|EVIDENCE_IN|moscow_concert_hall_attack",
+        "automaticWeapon|EVIDENCE_IN|moscow_concert_hall_attack",
+        "picnic|PARTICIPATED_IN|moscow_concert_hall_attack",
+        "tass|WITNESSED|moscow_concert_hall_attack",
+        "cnn|WITNESSED|moscow_concert_hall_attack",
+        "kremlin|WITNESSED|moscow_concert_hall_attack",
+        "prosecutorGeneralsOffice|WITNESSED|moscow_concert_hall_attack",
+        "vladimirPutin|AUTHORIZES_ACTION_AGAINST|ukraine",
+        "andreyVorobyov|WITNESSED|moscow_concert_hall_attack",
+        "sergeiSobyanin|WITNESSED|moscow_concert_hall_attack",
+        "sergeiSobyanin|AUTHORIZES_ACTION_AGAINST|moscow",
+        "shaman|WITNESSED|moscow_concert_hall_attack",
+        "shaman|DEFENDS_POLICY_AGAINST|isis",
+        "moscow_concert_hall_attack|CAUSES_POLICY_SHIFT_IN|russia24",
+        "moscow_concert_hall_attack|CAUSES_POLICY_SHIFT_IN|riaNovosti"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "samaria_vehicular_assault",
+          "name": "Samaria vehicular assault",
+          "summary": "Two Israeli soldiers were killed in a terrorist vehicular assault near the city of Nablus (Shechem) in Samaria. The attack took place between the Hatmar Shomron Junction and the Israeli community of Itamar. The terrorist managed to escape and flee towards Nablus, before turning himself in to Palestinian Authority police. Samaria Regional Council head Yossi Dagan demanded that the IDF restore security checkpoints and roadblocks near Palestinian terrorist hotspots like Nablus."
+        },
+        {
+          "label": "Event",
+          "id": "gaza_ground_invasion",
+          "name": "Gaza ground invasion",
+          "summary": "The IDF launched a ground invasion of the Gaza Strip. The invasion has resulted in the death of 291 Palestinians. The invasion followed a period of intense aerial bombardment and shelling of Gaza."
+        },
+        {
+          "label": "Event",
+          "id": "gaza_war",
+          "name": "Gaza war",
+          "summary": "The war between Israel and Hamas in the Gaza Strip has resulted in the death of 642 Israelis and 291 Palestinians. The war began on October 7th and has seen intense aerial bombardment, shelling, and a ground invasion of the Gaza Strip."
+        },
+        {
+          "label": "Event",
+          "id": "palestinian_terrorist_attacks",
+          "name": "Palestinian terrorist attacks",
+          "summary": "There has been a dramatic rise in Palestinian terrorist attacks in Judea and Samaria in 2023 compared to the previous year, with shootings reaching their highest level since the Second Intifada of 2000-05. Between October 7th and January 15th, Rescuers Without Borders first responders recorded more than 2,600 Palestinian attacks targeting Israelis in Judea and Samaria, including 760 cases of rock-throwing, 551 fire bombings, 12 attempted or successful stabbings and nine vehicular assaults."
+        },
+        {
+          "label": "Person",
+          "id": "eliyaHilel",
+          "name": "Eliya Hilel"
+        },
+        {
+          "label": "Person",
+          "id": "diegoShvishaHarsaj",
+          "name": "Diego Shvisha Harsaj"
+        },
+        {
+          "label": "Person",
+          "id": "yedidyaAzugi",
+          "name": "Yedidya Azugi"
+        },
+        {
+          "label": "Person",
+          "id": "yossiDagan",
+          "name": "Yossi Dagan"
+        },
+        {
+          "label": "Person",
+          "id": "bezalelSmotrich",
+          "name": "Bezalel Smotrich"
+        },
+        {
+          "label": "Person",
+          "id": "herziHalevi",
+          "name": "Herzi Halevi"
+        },
+        {
+          "label": "Person",
+          "id": "yehudaFox",
+          "name": "Yehuda Fox"
+        },
+        {
+          "label": "Organization",
+          "id": "idf",
+          "name": "Israel Defense Forces"
+        },
+        {
+          "label": "Organization",
+          "id": "kfirBrigade",
+          "name": "Kfir Brigade"
+        },
+        {
+          "label": "Organization",
+          "id": "nahshonBattalion",
+          "name": "Nahshon Battalion"
+        },
+        {
+          "label": "Organization",
+          "id": "paratrooperBrigade",
+          "name": "Paratrooper Brigade"
+        },
+        {
+          "label": "Organization",
+          "id": "101stBattalion",
+          "name": "101st Battalion"
+        },
+        {
+          "label": "Organization",
+          "id": "hatzalahJudeaAndSamaria",
+          "name": "Hatzalah Judea and Samaria"
+        },
+        {
+          "label": "Organization",
+          "id": "samariaRegionalCouncil",
+          "name": "Samaria Regional Council"
+        },
+        {
+          "label": "Organization",
+          "id": "palestinianAuthority",
+          "name": "Palestinian Authority"
+        },
+        {
+          "label": "Organization",
+          "id": "kanNews",
+          "name": "Kan News"
+        },
+        {
+          "label": "Organization",
+          "id": "channel12News",
+          "name": "Channel 12 News"
+        },
+        {
+          "label": "Location",
+          "id": "nablus",
+          "name": "Nablus"
+        },
+        {
+          "label": "Location",
+          "id": "samaria",
+          "name": "Samaria"
+        },
+        {
+          "label": "Location",
+          "id": "telZion",
+          "name": "Tel Zion"
+        },
+        {
+          "label": "Location",
+          "id": "telAviv",
+          "name": "Tel Aviv"
+        },
+        {
+          "label": "Location",
+          "id": "revava",
+          "name": "Revava"
+        },
+        {
+          "label": "Location",
+          "id": "gazaStrip",
+          "name": "Gaza Strip"
+        },
+        {
+          "label": "Location",
+          "id": "hatmarShomronJunction",
+          "name": "Hatmar Shomron Junction"
+        },
+        {
+          "label": "Location",
+          "id": "itamar",
+          "name": "Itamar"
+        },
+        {
+          "label": "Location",
+          "id": "tulkarem",
+          "name": "Tulkarem"
+        },
+        {
+          "label": "Object",
+          "id": "vehicle",
+          "name": "vehicle"
+        }
+      ],
+      "relationships": [
+        "eliyaHilel|PARTICIPATED_IN|samaria_vehicular_assault",
+        "diegoShvishaHarsaj|PARTICIPATED_IN|samaria_vehicular_assault",
+        "yedidyaAzugi|PARTICIPATED_IN|gaza_ground_invasion",
+        "idf|HAS_MEMBER|eliyaHilel",
+        "idf|HAS_MEMBER|diegoShvishaHarsaj",
+        "idf|HAS_MEMBER|yedidyaAzugi",
+        "kfirBrigade|HAS_MEMBER|eliyaHilel",
+        "kfirBrigade|HAS_MEMBER|diegoShvishaHarsaj",
+        "nahshonBattalion|HAS_MEMBER|eliyaHilel",
+        "nahshonBattalion|HAS_MEMBER|diegoShvishaHarsaj",
+        "paratrooperBrigade|HAS_MEMBER|yedidyaAzugi",
+        "101stBattalion|HAS_MEMBER|yedidyaAzugi",
+        "samariaRegionalCouncil|HAS_MEMBER|yossiDagan",
+        "vehicle|EVIDENCE_IN|samaria_vehicular_assault",
+        "nablus|WAS_SCENE_OF|samaria_vehicular_assault",
+        "samaria|WAS_SCENE_OF|samaria_vehicular_assault",
+        "gazaStrip|WAS_SCENE_OF|gaza_ground_invasion",
+        "gazaStrip|WAS_SCENE_OF|gaza_war",
+        "samaria_vehicular_assault|LED_TO|gaza_war",
+        "gaza_war|LED_TO|gaza_ground_invasion",
+        "samaria|WAS_SCENE_OF|palestinian_terrorist_attacks",
+        "gazaStrip|WAS_SCENE_OF|palestinian_terrorist_attacks",
+        "palestinianAuthority|PARTICIPATED_IN|samaria_vehicular_assault",
+        "hatzalahJudeaAndSamaria|WITNESSED|samaria_vehicular_assault",
+        "hatzalahJudeaAndSamaria|WITNESSED|palestinian_terrorist_attacks",
+        "kanNews|WITNESSED|samaria_vehicular_assault",
+        "channel12News|WITNESSED|samaria_vehicular_assault",
+        "herziHalevi|DIRECTED|samaria_vehicular_assault",
+        "yehudaFox|DIRECTED|samaria_vehicular_assault",
+        "yossiDagan|DEFENDS_POLICY_AGAINST|palestinianAuthority",
+        "bezalelSmotrich|DEFENDS_POLICY_AGAINST|palestinianAuthority",
+        "bezalelSmotrich|AUTHORIZES_ACTION_AGAINST|tulkarem",
+        "idf|AUTHORIZES_ACTION_AGAINST|nablus",
+        "idf|AUTHORIZES_ACTION_AGAINST|samaria",
+        "idf|AUTHORIZES_ACTION_AGAINST|tulkarem",
+        "idf|AUTHORIZES_ACTION_AGAINST|gazaStrip"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "ttpAttacksInPakistan",
+          "name": "TTP attacks in Pakistan",
+          "summary": "Pakistan has seen an uptick in terrorist attacks since the Taliban returned to power in Kabul in August 2021.  The Pakistani Interior Minister Mohsin Naqvi has demanded that the Taliban take action against the TTP, including its leader Noor Wali Mehsud, for its role in recent terrorist attacks in Pakistan, including a suicide bombing of a vehicle carrying Chinese nationals in the northwestern province.  Pakistan has long accused Kabul of failing to take action against TTP militants who allegedly hide and operate from Afghanistan."
+        },
+        {
+          "label": "Organization",
+          "id": "ttp",
+          "name": "Tehreek-e-Taliban Pakistan"
+        },
+        {
+          "label": "Person",
+          "id": "noorWaliMehsud",
+          "name": "Noor Wali Mehsud"
+        },
+        {
+          "label": "Organization",
+          "id": "taliban",
+          "name": "Taliban"
+        },
+        {
+          "label": "Location",
+          "id": "pakistan",
+          "name": "Pakistan"
+        },
+        {
+          "label": "Location",
+          "id": "kabul",
+          "name": "Kabul"
+        },
+        {
+          "label": "Location",
+          "id": "afghanistan",
+          "name": "Afghanistan"
+        },
+        {
+          "label": "Organization",
+          "id": "pakistaniGovernment",
+          "name": "Pakistani government"
+        },
+        {
+          "label": "Person",
+          "id": "mohsinNaqvi",
+          "name": "Mohsin Naqvi"
+        },
+        {
+          "label": "Location",
+          "id": "lahore",
+          "name": "Lahore"
+        },
+        {
+          "label": "Location",
+          "id": "khyberPakhtunkhwa",
+          "name": "Khyber Pakhtunkhwa"
+        },
+        {
+          "label": "Location",
+          "id": "shanglaDistrict",
+          "name": "Shangla district"
+        },
+        {
+          "label": "Organization",
+          "id": "chineseGovernment",
+          "name": "Chinese government"
+        },
+        {
+          "label": "Organization",
+          "id": "chineseNationals",
+          "name": "Chinese nationals"
+        },
+        {
+          "label": "Object",
+          "id": "vehicle",
+          "name": "vehicle"
+        },
+        {
+          "label": "Object",
+          "id": "powerProject",
+          "name": "power project"
+        },
+        {
+          "label": "Event",
+          "id": "suicideBombing",
+          "name": "suicide bombing",
+          "summary": "A suicide bombing of a vehicle carrying Chinese nationals in the northwestern province of Pakistan."
+        },
+        {
+          "label": "Event",
+          "id": "marchSuicideAttack",
+          "name": "March suicide attack",
+          "summary": "A suicide bombing of a vehicle carrying Chinese nationals in the northwestern province of Pakistan."
+        }
+      ],
+      "relationships": [
+        "ttp|ENDORSES_TERRORISM|ttpAttacksInPakistan",
+        "noorWaliMehsud|SPOKESPERSON_FOR|ttp",
+        "taliban|OPERATES_IN|afghanistan",
+        "pakistaniGovernment|ACCUSED_OF_TERRORISM_BY|ttp",
+        "mohsinNaqvi|SPOKESPERSON_FOR|pakistaniGovernment",
+        "lahore|WAS_SCENE_OF|ttpAttacksInPakistan",
+        "khyberPakhtunkhwa|WAS_SCENE_OF|ttpAttacksInPakistan",
+        "shanglaDistrict|WAS_SCENE_OF|suicideBombing",
+        "chineseGovernment|SPONSORED|powerProject",
+        "chineseNationals|PARTICIPATED_IN|suicideBombing",
+        "vehicle|TRANSPORTED_TO|shanglaDistrict",
+        "vehicle|TRANSPORTED_TO|khyberPakhtunkhwa",
+        "vehicle|TRANSPORTED_TO|pakistan",
+        "powerProject|OPERATES_IN|khyberPakhtunkhwa",
+        "powerProject|OPERATES_IN|pakistan",
+        "suicideBombing|LED_TO|ttpAttacksInPakistan",
+        "afghanistan|WAS_SCENE_OF|ttpAttacksInPakistan",
+        "taliban|OPERATES_IN|afghanistan",
+        "afghanistan|HOSTS_NEGOTIATIONS_BETWEEN|pakistan_and_taliban",
+        "pakistan|IMPOSES_SANCTIONS_ON|ttp",
+        "pakistaniGovernment|ACCUSED_OF_TERRORISM_BY|ttp"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "sydneychurchstabbing",
+          "name": "Sydney church stabbing",
+          "summary": "A 16-year-old boy was arrested after a bishop, a priest and churchgoers were attacked during mass at the Assyrian Christ The Good Shepherd Church. At least four people suffered \"non-life-threatening\" injuries, police say. The attacker was also hurt. The incident was captured on a church livestream and quickly triggered unrest in the suburb of Wakeley. Australian police define terror offences as being ideologically motivated. Investigations are still under way, but they say they are satisfied this is a case of religious extremism. Authorities have repeatedly declined to state the religion of the alleged attacker. The church has named the priest as Father Isaac Royel and the bishop as Mar Mari Emmanuel. Ordained in 2011, Bishop Emmanuel is seen as a popular and controversial figure, whose sermons receive millions of views on social media. When graphic videos of the attack - and the aftermath - spread like wildfire online on Monday night, they drew an angry crowd to the Assyrian Orthodox Church, which is about 35km south-west of the city centre. There, hundreds of people upset over the attack violently clashed with police, who were guarding the church where the alleged attacker was being held. Two officers were injured - one suffering a broken jaw after he was hit with a brick and fence palings - and 10 police cars destroyed. The violence similarly left paramedics fearing for their safety and \"holed up\" inside the church for more than three hours. Maria, a member of the Assyrian community, told Guardian Australia that those present outside the church following the attack were \"reacting to what they were seeing on social media\". \"There were many inflammatory posts making the rounds, people advocating for violence and such,\" she said. \"It was making lots of people very angry.\" Prime Minister Anthony Albanese has convened an emergency meeting of national security agencies, calling the attack \"disturbing\". \"We're a peace-loving nation... There's no place for violent extremism,\" he said. Trying to quell further violence, he urged that people \"not take the law into their own hands\". Questioned about the role that social media played in Monday night's events, Mr Albanese said he \"remained concerned\" about it. The government has told Meta, the parent company of Facebook, Instagram and Whatsapp - as well as X, formerly known as Twitter - to remove offensive content relating to the attack from their platforms within 24 hours or face potential fines."
+        },
+        {
+          "label": "Person",
+          "id": "isaacRoyel",
+          "name": "Father Isaac Royel"
+        },
+        {
+          "label": "Person",
+          "id": "marMariEmmanuel",
+          "name": "Mar Mari Emmanuel"
+        },
+        {
+          "label": "Organization",
+          "id": "australianPolice",
+          "name": "Australian police"
+        },
+        {
+          "label": "Location",
+          "id": "wakeley",
+          "name": "Wakeley"
+        },
+        {
+          "label": "Organization",
+          "id": "assryianChristTheGoodShepherdChurch",
+          "name": "Assyrian Christ The Good Shepherd Church"
+        },
+        {
+          "label": "Organization",
+          "id": "assryianOrthodoxChurch",
+          "name": "Assyrian Orthodox Church"
+        },
+        {
+          "label": "Organization",
+          "id": "meta",
+          "name": "Meta"
+        },
+        {
+          "label": "Organization",
+          "id": "facebook",
+          "name": "Facebook"
+        },
+        {
+          "label": "Organization",
+          "id": "instagram",
+          "name": "Instagram"
+        },
+        {
+          "label": "Organization",
+          "id": "whatsapp",
+          "name": "Whatsapp"
+        },
+        {
+          "label": "Organization",
+          "id": "x",
+          "name": "X"
+        },
+        {
+          "label": "Organization",
+          "id": "twitter",
+          "name": "Twitter"
+        },
+        {
+          "label": "Organization",
+          "id": "nswPolice",
+          "name": "New South Wales (NSW) Police"
+        },
+        {
+          "label": "Person",
+          "id": "karenWebb",
+          "name": "Karen Webb"
+        },
+        {
+          "label": "Person",
+          "id": "chrisMinns",
+          "name": "Chris Minns"
+        },
+        {
+          "label": "Person",
+          "id": "anthonyAlbanese",
+          "name": "Anthony Albanese"
+        },
+        {
+          "label": "Organization",
+          "id": "2gbRadio",
+          "name": "2GB radio"
+        },
+        {
+          "label": "Organization",
+          "id": "nswAmbulance",
+          "name": "NSW Ambulance"
+        },
+        {
+          "label": "Person",
+          "id": "dominicMorgan",
+          "name": "Dominic Morgan"
+        },
+        {
+          "label": "Location",
+          "id": "sydney",
+          "name": "Sydney"
+        },
+        {
+          "label": "Location",
+          "id": "cityCentre",
+          "name": "city centre"
+        },
+        {
+          "label": "Location",
+          "id": "theHospital",
+          "name": "the hospital"
+        },
+        {
+          "label": "Location",
+          "id": "iraq",
+          "name": "Iraq"
+        },
+        {
+          "label": "Location",
+          "id": "syria",
+          "name": "Syria"
+        },
+        {
+          "label": "Person",
+          "id": "daiLe",
+          "name": "Dai Le"
+        },
+        {
+          "label": "Organization",
+          "id": "assryianChurch",
+          "name": "Assyrian Church"
+        },
+        {
+          "label": "Organization",
+          "id": "theGovernment",
+          "name": "the government"
+        },
+        {
+          "label": "Organization",
+          "id": "nationalSecurityAgencies",
+          "name": "national security agencies"
+        },
+        {
+          "label": "Person",
+          "id": "maria",
+          "name": "Maria"
+        },
+        {
+          "label": "Person",
+          "id": "theTeenager",
+          "name": "the teenager"
+        },
+        {
+          "label": "Object",
+          "id": "brick",
+          "name": "brick"
+        },
+        {
+          "label": "Object",
+          "id": "fencePalings",
+          "name": "fence palings"
+        },
+        {
+          "label": "Object",
+          "id": "blade",
+          "name": "blade"
+        },
+        {
+          "label": "Object",
+          "id": "weapon",
+          "name": "weapon"
+        }
+      ],
+      "relationships": [
+        "isaacRoyel|PARTICIPATED_IN|sydneychurchstabbing",
+        "marMariEmmanuel|PARTICIPATED_IN|sydneychurchstabbing",
+        "australianPolice|SPONSORED|sydneychurchstabbing",
+        "wakeley|WAS_SCENE_OF|sydneychurchstabbing",
+        "assryianChristTheGoodShepherdChurch|WAS_SCENE_OF|sydneychurchstabbing",
+        "theTeenager|PARTICIPATED_IN|sydneychurchstabbing",
+        "assryianOrthodoxChurch|WAS_SCENE_OF|sydneychurchstabbing",
+        "meta|SPONSORED|sydneychurchstabbing",
+        "facebook|HAS_MEMBER|meta",
+        "instagram|HAS_MEMBER|meta",
+        "whatsapp|HAS_MEMBER|meta",
+        "x|HAS_MEMBER|meta",
+        "twitter|HAS_MEMBER|meta",
+        "nswPolice|SPONSORED|sydneychurchstabbing",
+        "karenWebb|SPOKESPERSON_FOR|nswPolice",
+        "chrisMinns|SPOKESPERSON_FOR|nswPolice",
+        "anthonyAlbanese|SPOKESPERSON_FOR|theGovernment",
+        "2gbRadio|HOSTS_NEGOTIATIONS_BETWEEN|chrisMinns_and_theTeenager",
+        "nswAmbulance|SPONSORED|sydneychurchstabbing",
+        "dominicMorgan|SPOKESPERSON_FOR|nswAmbulance",
+        "sydney|WAS_SCENE_OF|sydneychurchstabbing",
+        "cityCentre|WAS_SCENE_OF|sydneychurchstabbing",
+        "theHospital|WAS_SCENE_OF|sydneychurchstabbing",
+        "iraq|OPERATES_IN|assryianChurch",
+        "syria|OPERATES_IN|assryianChurch",
+        "daiLe|WITNESSED|sydneychurchstabbing",
+        "assryianChurch|HAS_MEMBER|marMariEmmanuel",
+        "theGovernment|SPONSORED|sydneychurchstabbing",
+        "nationalSecurityAgencies|HAS_MEMBER|anthonyAlbanese",
+        "maria|WITNESSED|sydneychurchstabbing",
+        "theTeenager|AUTHORIZES_ACTION_AGAINST|assryianChristTheGoodShepherdChurch",
+        "brick|EVIDENCE_IN|sydneychurchstabbing",
+        "fencePalings|EVIDENCE_IN|sydneychurchstabbing",
+        "blade|EVIDENCE_IN|sydneychurchstabbing",
+        "weapon|EVIDENCE_IN|sydneychurchstabbing"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "moscow_rock_concert_attack",
+          "name": "Moscow rock concert attack",
+          "summary": "Gunmen stormed a rock concert near Moscow, killing at least 90 people and wounding more than 100 others. The Islamic State group claimed responsibility for the attack, and U.S. officials confirmed the claim. Eleven people have been detained in connection with the attack. The assailants fired automatic rifles and tossed what was either a hand grenade or incendiary device toward concert-goers from the main entrance of the venue, Crocus City Hall, ahead of a performance by the Russian band Picnic. The building was set alight during the attack, and images from the scene showed flames and heavy smoke billowing out from the building. Multiple videos circulating online showed concert-goers throwing themselves to the floor, hiding behind seats, or running away in search of an exit to the sounds of gunshots and screaming. One video showed four gunmen making their way toward what looked like an exit, with one stopping to fire repeatedly into a group of people huddled together in a corner. Other images circulating on social media showed what appeared to be the bodies of victims, lying amid piles of shattered glass. News of the attack prompted authorities to evacuate malls in Moscow and St. Petersburg as well as cancel public events across the country. Moscow Mayor Sergei Sobyanin posted on social media that the attack was a “horrible tragedy,” while Russian Foreign Ministry spokesperson Maria Zakharova called it a “bloody terrorist attack.” Ukraine denied it was responsible. The U.S. Embassy in Moscow on March 7 had warned it was “monitoring reports that extremists have imminent plans to target large gatherings in Moscow, to include concerts.” The White House National Security Council spokesperson John Kirby told reporters that Washington was trying to get more information about the incident, but noted that the “images were just horrible.” “Our thoughts obviously are going to be with the victims of this terrible, terrible shooting attack,” he said. Armenia, Belarus, Bolivia, Cuba, Iran, France, Serbia and Turkey also sent their official condolences."
+        },
+        {
+          "label": "Organization",
+          "id": "islamicState",
+          "name": "Islamic State"
+        },
+        {
+          "label": "Organization",
+          "id": "usOfficials",
+          "name": "U.S. officials"
+        },
+        {
+          "label": "Organization",
+          "id": "federalSecurityService",
+          "name": "Federal Security Service"
+        },
+        {
+          "label": "Person",
+          "id": "vladimirPutin",
+          "name": "Vladimir Putin"
+        },
+        {
+          "label": "Organization",
+          "id": "tass",
+          "name": "Tass"
+        },
+        {
+          "label": "Organization",
+          "id": "russianStateMedia",
+          "name": "Russian state media"
+        },
+        {
+          "label": "Organization",
+          "id": "picnic",
+          "name": "Picnic"
+        },
+        {
+          "label": "Location",
+          "id": "crocusCityHall",
+          "name": "Crocus City Hall"
+        },
+        {
+          "label": "Location",
+          "id": "moscow",
+          "name": "Moscow"
+        },
+        {
+          "label": "Location",
+          "id": "stPetersburg",
+          "name": "St. Petersburg"
+        },
+        {
+          "label": "Person",
+          "id": "sergeiSobyanin",
+          "name": "Sergei Sobyanin"
+        },
+        {
+          "label": "Person",
+          "id": "mariaZakharova",
+          "name": "Maria Zakharova"
+        },
+        {
+          "label": "Organization",
+          "id": "ukraine",
+          "name": "Ukraine"
+        },
+        {
+          "label": "Person",
+          "id": "mykhailoPodolyak",
+          "name": "Mykhailo Podolyak"
+        },
+        {
+          "label": "Person",
+          "id": "volodymyrZelenskyy",
+          "name": "Volodymyr Zelenskyy"
+        },
+        {
+          "label": "Organization",
+          "id": "usEmbassy",
+          "name": "U.S. Embassy"
+        },
+        {
+          "label": "Organization",
+          "id": "whiteHouseNationalSecurityCouncil",
+          "name": "White House National Security Council"
+        },
+        {
+          "label": "Person",
+          "id": "johnKirby",
+          "name": "John Kirby"
+        },
+        {
+          "label": "Organization",
+          "id": "armenia",
+          "name": "Armenia"
+        },
+        {
+          "label": "Organization",
+          "id": "belarus",
+          "name": "Belarus"
+        },
+        {
+          "label": "Organization",
+          "id": "bolivia",
+          "name": "Bolivia"
+        },
+        {
+          "label": "Organization",
+          "id": "cuba",
+          "name": "Cuba"
+        },
+        {
+          "label": "Organization",
+          "id": "iran",
+          "name": "Iran"
+        },
+        {
+          "label": "Organization",
+          "id": "france",
+          "name": "France"
+        },
+        {
+          "label": "Organization",
+          "id": "serbia",
+          "name": "Serbia"
+        },
+        {
+          "label": "Organization",
+          "id": "turkey",
+          "name": "Turkey"
+        }
+      ],
+      "relationships": [
+        "islamicState|ENDORSES_TERRORISM|moscow_rock_concert_attack",
+        "usOfficials|WITNESSED|moscow_rock_concert_attack",
+        "federalSecurityService|HAS_MEMBER|vladimirPutin",
+        "tass|SPOKESPERSON_FOR|federalSecurityService",
+        "vladimirPutin|PARTICIPATED_IN|moscow_rock_concert_attack",
+        "russianStateMedia|WITNESSED|moscow_rock_concert_attack",
+        "picnic|PARTICIPATED_IN|moscow_rock_concert_attack",
+        "crocusCityHall|WAS_SCENE_OF|moscow_rock_concert_attack",
+        "moscow|WAS_SCENE_OF|moscow_rock_concert_attack",
+        "stPetersburg|WAS_SCENE_OF|moscow_rock_concert_attack",
+        "sergeiSobyanin|SPOKESPERSON_FOR|moscow",
+        "mariaZakharova|SPOKESPERSON_FOR|russianStateMedia",
+        "ukraine|DEFENDS_POLICY_AGAINST|russianStateMedia",
+        "mykhailoPodolyak|SPOKESPERSON_FOR|ukraine",
+        "volodymyrZelenskyy|HAS_MEMBER|mykhailoPodolyak",
+        "usEmbassy|OPERATES_IN|moscow",
+        "whiteHouseNationalSecurityCouncil|HAS_MEMBER|johnKirby",
+        "johnKirby|SPOKESPERSON_FOR|whiteHouseNationalSecurityCouncil",
+        "armenia|WITNESSED|moscow_rock_concert_attack",
+        "belarus|WITNESSED|moscow_rock_concert_attack",
+        "bolivia|WITNESSED|moscow_rock_concert_attack",
+        "cuba|WITNESSED|moscow_rock_concert_attack",
+        "iran|WITNESSED|moscow_rock_concert_attack",
+        "france|WITNESSED|moscow_rock_concert_attack",
+        "serbia|WITNESSED|moscow_rock_concert_attack",
+        "turkey|WITNESSED|moscow_rock_concert_attack"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "shangla_attack",
+          "name": "Shangla attack",
+          "summary": "The attack, which took place on March 26 in Bisham city of Khyber Pakhtunkhwa’s Shangla district, claimed the lives of five Chinese engineers and one Pakistani citizen. The incident occurred when the convoy was traveling between Islamabad and a hydroelectric dam construction site in Dasu, Khyber Pakhtunkhwa. According to the District Inspector General (DIG) of Malakand, a suicide bomber rammed an explosive-laden vehicle into a convoy carrying Chinese nationals. The interior minister added that the TTP orchestrated the Shangla terror attack from inside Afghanistan."
+        },
+        {
+          "label": "Event",
+          "id": "pakistan_demands_ttpextradtion",
+          "name": "Pakistan demands TTP extradition",
+          "summary": "Pakistan has demanded that the Taliban government in Afghanistan hand over terrorists from the outlawed Tehreek-e-Taliban Pakistan (TTP) who were involved in the attack on Chinese engineers in the Shangla district of Khyber Pakhtunkhwa."
+        },
+        {
+          "label": "Person",
+          "id": "mohsinNaqvi",
+          "name": "Mohsin Naqvi"
+        },
+        {
+          "label": "Person",
+          "id": "shehbazSharif",
+          "name": "Shehbaz Sharif"
+        },
+        {
+          "label": "Person",
+          "id": "raiTahir",
+          "name": "Rai Tahir"
+        },
+        {
+          "label": "Organization",
+          "id": "ttp",
+          "name": "Tehreek-e-Taliban Pakistan"
+        },
+        {
+          "label": "Organization",
+          "id": "aryNews",
+          "name": "ARY News"
+        },
+        {
+          "label": "Organization",
+          "id": "necta",
+          "name": "National Counter-Terrorism Authority"
+        },
+        {
+          "label": "Organization",
+          "id": "talibanGovernment",
+          "name": "Taliban government"
+        },
+        {
+          "label": "Organization",
+          "id": "pakistan",
+          "name": "Pakistan"
+        },
+        {
+          "label": "Organization",
+          "id": "china",
+          "name": "China"
+        },
+        {
+          "label": "Organization",
+          "id": "alJazeera",
+          "name": "Al Jazeera"
+        },
+        {
+          "label": "Organization",
+          "id": "nacta",
+          "name": "National Coordinator NACTA"
+        },
+        {
+          "label": "Location",
+          "id": "shanglaDistrict",
+          "name": "Shangla district"
+        },
+        {
+          "label": "Location",
+          "id": "bishamCity",
+          "name": "Bisham city"
+        },
+        {
+          "label": "Location",
+          "id": "khyberPakhtunkhwa",
+          "name": "Khyber Pakhtunkhwa"
+        },
+        {
+          "label": "Location",
+          "id": "dasu",
+          "name": "Dasu"
+        },
+        {
+          "label": "Location",
+          "id": "islamabad",
+          "name": "Islamabad"
+        },
+        {
+          "label": "Location",
+          "id": "afghanistan",
+          "name": "Afghanistan"
+        },
+        {
+          "label": "Object",
+          "id": "explosiveLadenVehicle",
+          "name": "explosive-laden vehicle"
+        },
+        {
+          "label": "Object",
+          "id": "mobilePhone",
+          "name": "mobile phone"
+        }
+      ],
+      "relationships": [
+        "mohsinNaqvi|SPOKESPERSON_FOR|pakistan",
+        "shehbazSharif|DIRECTED|shangla_attack",
+        "shehbazSharif|PARTICIPATED_IN|shangla_attack",
+        "raiTahir|SPOKESPERSON_FOR|nacta",
+        "ttp|PARTICIPATED_IN|shangla_attack",
+        "ttp|ENDORSES_TERRORISM|shangla_attack",
+        "pakistan|ACCUSED_OF_TERRORISM_BY|ttp",
+        "pakistan|DEMANDS_EXTRADITION_FROM|talibanGovernment",
+        "talibanGovernment|OPERATES_IN|afghanistan",
+        "ttp|OPERATES_IN|afghanistan",
+        "pakistan|OPERATES_IN|khyberPakhtunkhwa",
+        "pakistan|IMPOSES_SANCTIONS_ON|ttp",
+        "pakistan|HAS_MEMBER|mohsinNaqvi",
+        "pakistan|HAS_MEMBER|shehbazSharif",
+        "pakistan|HAS_MEMBER|raiTahir",
+        "pakistan|HOSTS_NEGOTIATIONS_BETWEEN|pakistan_and_china",
+        "china|HAS_MEMBER|chineseEngineers",
+        "chineseEngineers|PARTICIPATED_IN|shangla_attack",
+        "explosiveLadenVehicle|EVIDENCE_IN|shangla_attack",
+        "mobilePhone|EVIDENCE_IN|shangla_attack",
+        "pakistan|DEMANDS_EXTRADITION_FROM|afghanistan",
+        "pakistan|AUTHORIZES_ACTION_AGAINST|afghanistan",
+        "pakistan|DEMANDS_POLICY_SHIFT_IN|talibanGovernment",
+        "pakistan_demands_ttpextradtion|LED_TO|shangla_attack",
+        "pakistan|DEMANDS_POLICY_SHIFT_IN|afghanistan",
+        "bishamCity|WAS_SCENE_OF|shangla_attack",
+        "shanglaDistrict|WAS_SCENE_OF|shangla_attack",
+        "khyberPakhtunkhwa|WAS_SCENE_OF|shangla_attack",
+        "dasu|WAS_SCENE_OF|shangla_attack",
+        "islamabad|WAS_SCENE_OF|shangla_attack",
+        "explosiveLadenVehicle|TRANSPORTED_TO|bishamCity"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "carney_murder",
+          "name": "Murder of Terence Carney",
+          "summary": "Ahmed Alid, a Moroccan asylum seeker, stabbed 70-year-old Terence Carney to death in Hartlepool, England. The attack was described by a judge as a terrorist act, carried out in 'revenge' for the Israel-Hamas conflict in October. Alid was sentenced to life in prison for the murder and the attempted murder of his housemate, Javed Nouri."
+        },
+        {
+          "label": "Person",
+          "id": "ahmedAlid",
+          "name": "Ahmed Alid"
+        },
+        {
+          "label": "Person",
+          "id": "terenceCarney",
+          "name": "Terence Carney"
+        },
+        {
+          "label": "Person",
+          "id": "javedNouri",
+          "name": "Javed Nouri"
+        },
+        {
+          "label": "Person",
+          "id": "patriciaCarney",
+          "name": "Patricia Carney"
+        },
+        {
+          "label": "Organization",
+          "id": "teessideCrownCourt",
+          "name": "Teesside Crown Court"
+        },
+        {
+          "label": "Organization",
+          "id": "homeOffice",
+          "name": "Home Office"
+        },
+        {
+          "label": "Organization",
+          "id": "israel",
+          "name": "Israel"
+        },
+        {
+          "label": "Organization",
+          "id": "hamas",
+          "name": "Hamas"
+        },
+        {
+          "label": "Organization",
+          "id": "terrorismPolicingNorthEast",
+          "name": "Terrorism Policing North East"
+        },
+        {
+          "label": "Organization",
+          "id": "teesValleyOfSanctuary",
+          "name": "Tees Valley of Sanctuary"
+        },
+        {
+          "label": "Location",
+          "id": "hartlepool",
+          "name": "Hartlepool"
+        },
+        {
+          "label": "Location",
+          "id": "rabyRoad",
+          "name": "Raby Road"
+        },
+        {
+          "label": "Location",
+          "id": "middlesbrough",
+          "name": "Middlesbrough"
+        },
+        {
+          "label": "Location",
+          "id": "gaza",
+          "name": "Gaza"
+        },
+        {
+          "label": "Object",
+          "id": "doorbellCamera",
+          "name": "doorbell camera"
+        }
+      ],
+      "relationships": [
+        "ahmedAlid|PARTICIPATED_IN|carney_murder",
+        "ahmedAlid|WITNESSED|israel_hamas_conflict",
+        "ahmedAlid|AUTHORIZES_ACTION_AGAINST|terenceCarney",
+        "ahmedAlid|AUTHORIZES_ACTION_AGAINST|javedNouri",
+        "terenceCarney|PARTICIPATED_IN|carney_murder",
+        "javedNouri|PARTICIPATED_IN|carney_murder",
+        "teessideCrownCourt|WAS_SCENE_OF|carney_murder",
+        "homeOffice|SPONSORED|carney_murder",
+        "israel|LED_TO|carney_murder",
+        "hamas|LED_TO|carney_murder",
+        "ahmedAlid|SPOKESPERSON_FOR|israel",
+        "ahmedAlid|SPOKESPERSON_FOR|hamas",
+        "hartlepool|WAS_SCENE_OF|carney_murder",
+        "rabyRoad|WAS_SCENE_OF|carney_murder",
+        "middlesbrough|WAS_SCENE_OF|carney_murder",
+        "doorbellCamera|EVIDENCE_IN|carney_murder",
+        "gaza|WAS_SCENE_OF|israel_hamas_conflict",
+        "terrorismPolicingNorthEast|INVESTIGATES|carney_murder",
+        "teesValleyOfSanctuary|ENDORSES_TERRORISM|carney_murder",
+        "ahmedAlid|DEFENDS_POLICY_AGAINST|israel"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "mannheim_stabbing",
+          "name": "Mannheim Stabbing",
+          "summary": "A man armed with a knife attacked several people, including a police officer, at an anti-Islam rally in Mannheim, Germany. The attacker was shot and killed by police. One of the victims, Michael Stürzenberger, a German far-right activist, was seriously injured and is undergoing surgery. The attack took place at a gathering for the BPE political group, which holds anti-Islam views. The incident was live-streamed on YouTube and caused widespread shock and concern. Police are investigating the motive behind the attack, with some suggesting it may have been an act of terrorism. The attack has raised concerns about security at the upcoming Euro 2020 football tournament, which is being held in Germany."
+        },
+        {
+          "label": "Person",
+          "id": "michaelStürzenberger",
+          "name": "Michael Stürzenberger"
+        },
+        {
+          "label": "Person",
+          "id": "nancyFaeser",
+          "name": "Nancy Faeser"
+        },
+        {
+          "label": "Person",
+          "id": "stefanieKizina",
+          "name": "Stefanie Kizina"
+        },
+        {
+          "label": "Organization",
+          "id": "bpe",
+          "name": "BPE"
+        },
+        {
+          "label": "Organization",
+          "id": "paxEuropa",
+          "name": "Pax Europa"
+        },
+        {
+          "label": "Organization",
+          "id": "germanFreedomParty",
+          "name": "German Freedom Party"
+        },
+        {
+          "label": "Organization",
+          "id": "munichCsu",
+          "name": "Munich CSU"
+        },
+        {
+          "label": "Organization",
+          "id": "police",
+          "name": "Police"
+        },
+        {
+          "label": "Location",
+          "id": "mannheim",
+          "name": "Mannheim"
+        },
+        {
+          "label": "Location",
+          "id": "marketSquare",
+          "name": "Market Square"
+        },
+        {
+          "label": "Location",
+          "id": "bonn",
+          "name": "Bonn"
+        },
+        {
+          "label": "Location",
+          "id": "munich",
+          "name": "Munich"
+        },
+        {
+          "label": "Location",
+          "id": "frankfurt",
+          "name": "Frankfurt"
+        },
+        {
+          "label": "Object",
+          "id": "knife",
+          "name": "Knife"
+        },
+        {
+          "label": "Object",
+          "id": "gun",
+          "name": "Gun"
+        }
+      ],
+      "relationships": [
+        "michaelStürzenberger|PARTICIPATED_IN|mannheim_stabbing",
+        "michaelStürzenberger|WITNESSED|mannheim_stabbing",
+        "police|PARTICIPATED_IN|mannheim_stabbing",
+        "bpe|SPONSORED|mannheim_stabbing",
+        "paxEuropa|SPONSORED|mannheim_stabbing",
+        "mannheim|WAS_SCENE_OF|mannheim_stabbing",
+        "marketSquare|WAS_SCENE_OF|mannheim_stabbing",
+        "knife|EVIDENCE_IN|mannheim_stabbing",
+        "gun|EVIDENCE_IN|mannheim_stabbing",
+        "police|AUTHORIZES_ACTION_AGAINST|knife",
+        "michaelStürzenberger|HAS_MEMBER|germanFreedomParty",
+        "michaelStürzenberger|SPOKESPERSON_FOR|munichCsu",
+        "bpe|HAS_MEMBER|stefanieKizina",
+        "paxEuropa|HAS_MEMBER|michaelStürzenberger",
+        "nancyFaeser|SPOKESPERSON_FOR|police",
+        "police|OPERATES_IN|mannheim",
+        "police|OPERATES_IN|marketSquare",
+        "mannheim_stabbing|LED_TO|policy_shift_in_police"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "dover_migrant_centre_firebombing",
+          "name": "Firebombing of a migrant centre in Dover",
+          "summary": "Andrew Leak, a 66-year-old man from High Wycombe, Buckinghamshire, is believed to have killed himself after throwing two or three incendiary devices at the Western Jet Foil site in Kent last Sunday. The attack is believed to have been motivated by extreme rightwing ideology. Leak's Facebook posts contained anti-Muslim sentiments and he was known to have mental health concerns. Two members of staff at the center were left with minor injuries. 700 people were moved to Manston asylum processing center for safety reasons. An inquest into Leak's death is expected to be opened at Maidstone County Hall on Tuesday."
+        },
+        {
+          "label": "Person",
+          "id": "andrewLeak",
+          "name": "Andrew Leak"
+        },
+        {
+          "label": "Organization",
+          "id": "counterTerrorismPolicingSouthEast",
+          "name": "Counter Terrorism Policing South East"
+        },
+        {
+          "label": "Organization",
+          "id": "facebook",
+          "name": "Facebook"
+        },
+        {
+          "label": "Location",
+          "id": "highWycombe",
+          "name": "High Wycombe"
+        },
+        {
+          "label": "Location",
+          "id": "kent",
+          "name": "Kent"
+        },
+        {
+          "label": "Location",
+          "id": "westernJetFoilSite",
+          "name": "Western Jet Foil site"
+        },
+        {
+          "label": "Location",
+          "id": "manstonAsylumProcessingCentre",
+          "name": "Manston asylum processing center"
+        },
+        {
+          "label": "Location",
+          "id": "maidstoneCountyHall",
+          "name": "Maidstone County Hall"
+        },
+        {
+          "label": "Location",
+          "id": "dover",
+          "name": "Dover"
+        },
+        {
+          "label": "Object",
+          "id": "incendiaryDevices",
+          "name": "incendiary devices"
+        }
+      ],
+      "relationships": [
+        "andrewLeak|PARTICIPATED_IN|dover_migrant_centre_firebombing",
+        "counterTerrorismPolicingSouthEast|WITNESSED|dover_migrant_centre_firebombing",
+        "andrewLeak|AUTHORIZES_ACTION_AGAINST|westernJetFoilSite",
+        "andrewLeak|SPOKESPERSON_FOR|facebook",
+        "highWycombe|WAS_SCENE_OF|dover_migrant_centre_firebombing",
+        "kent|WAS_SCENE_OF|dover_migrant_centre_firebombing",
+        "incendiaryDevices|EVIDENCE_IN|dover_migrant_centre_firebombing",
+        "manstonAsylumProcessingCentre|WAS_SCENE_OF|dover_migrant_centre_firebombing",
+        "maidstoneCountyHall|HOSTS_NEGOTIATIONS_BETWEEN|andrewLeak_and_counterTerrorismPolicingSouthEast",
+        "dover|WAS_SCENE_OF|dover_migrant_centre_firebombing"
+      ]
+    },
+    {
+      "entities": [
+        {
+          "label": "Event",
+          "id": "buffalo_grocery_store_shooting",
+          "name": "Buffalo grocery store shooting",
+          "summary": "Payton Gendron, a 19-year-old White man, pleaded guilty to state charges of domestic terrorism as a hate crime, murder and attempted murder for the shooting at Tops Friendly Markets on May 14, killing 10 people and wounding three.  Gendron admitted to using an illegally modified semiautomatic rifle to target people because they were Black, and chose the store because it was in a predominantly Black neighborhood. He faces multiple federal hate crime charges, which carry the potential for the death penalty, in addition to several firearms charges. The event has led to discussions about gun control and racism in the United States."
+        },
+        {
+          "label": "Person",
+          "id": "paytonGendron",
+          "name": "Payton Gendron"
+        },
+        {
+          "label": "Person",
+          "id": "geraldineTalley",
+          "name": "Geraldine Talley"
+        },
+        {
+          "label": "Person",
+          "id": "markTalley",
+          "name": "Mark Talley"
+        },
+        {
+          "label": "Person",
+          "id": "zaireGoodman",
+          "name": "Zaire Goodman"
+        },
+        {
+          "label": "Person",
+          "id": "zenetaEverhart",
+          "name": "Zeneta Everhart"
+        },
+        {
+          "label": "Person",
+          "id": "paulGendron",
+          "name": "Paul Gendron"
+        },
+        {
+          "label": "Person",
+          "id": "pamelaGendron",
+          "name": "Pamela Gendron"
+        },
+        {
+          "label": "Person",
+          "id": "brianParker",
+          "name": "Brian Parker"
+        },
+        {
+          "label": "Person",
+          "id": "johnFlynn",
+          "name": "John Flynn"
+        },
+        {
+          "label": "Person",
+          "id": "kathyHochul",
+          "name": "Kathy Hochul"
+        },
+        {
+          "label": "Person",
+          "id": "terrenceConnors",
+          "name": "Terrence Connors"
+        },
+        {
+          "label": "Person",
+          "id": "benCrump",
+          "name": "Ben Crump"
+        },
+        {
+          "label": "Organization",
+          "id": "topsFriendlyMarkets",
+          "name": "Tops Friendly Markets"
+        },
+        {
+          "label": "Organization",
+          "id": "erieCountyDistrictAttorney",
+          "name": "Erie County District Attorney"
+        },
+        {
+          "label": "Location",
+          "id": "buffalo",
+          "name": "Buffalo"
+        },
+        {
+          "label": "Location",
+          "id": "newYork",
+          "name": "New York"
+        },
+        {
+          "label": "Location",
+          "id": "conklin",
+          "name": "Conklin"
+        },
+        {
+          "label": "Object",
+          "id": "ar15",
+          "name": "AR-15 style rifle"
+        },
+        {
+          "label": "Object",
+          "id": "highCapacityMagazine",
+          "name": "high-capacity magazine"
+        }
+      ],
+      "relationships": [
+        "paytonGendron|PARTICIPATED_IN|buffalo_grocery_store_shooting",
+        "paytonGendron|AUTHORIZES_ACTION_AGAINST|buffalo",
+        "paytonGendron|WITNESSED|buffalo_grocery_store_shooting",
+        "topsFriendlyMarkets|WAS_SCENE_OF|buffalo_grocery_store_shooting",
+        "erieCountyDistrictAttorney|ACCUSED_OF_TERRORISM_BY|paytonGendron",
+        "buffalo|OPERATES_IN|newYork",
+        "conklin|OPERATES_IN|newYork",
+        "ar15|EVIDENCE_IN|buffalo_grocery_store_shooting",
+        "highCapacityMagazine|EVIDENCE_IN|buffalo_grocery_store_shooting",
+        "paytonGendron|SPOKESPERSON_FOR|topsFriendlyMarkets",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|erieCountyDistrictAttorney",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|kathyHochul",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|benCrump",
+        "paytonGendron|DEFENDS_POLICY_AGAINST|terrenceConnors",
+        "paytonGendron|HAS_MEMBER|paulGendron",
+        "paytonGendron|HAS_MEMBER|pamelaGendron",
+        "paytonGendron|HAS_MEMBER|brianParker",
+        "geraldineTalley|WITNESSED|buffalo_grocery_store_shooting",
+        "markTalley|WITNESSED|buffalo_grocery_store_shooting",
+        "zaireGoodman|WITNESSED|buffalo_grocery_store_shooting",
+        "zenetaEverhart|WITNESSED|buffalo_grocery_store_shooting",
+        "buffalo_grocery_store_shooting|CAUSES_POLICY_SHIFT_IN|erieCountyDistrictAttorney"
+      ]
+    }
+  ]
+}
